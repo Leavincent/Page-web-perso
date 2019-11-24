@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font: 1.2em "Arial", times, serif;
+    font: 1.2em "Georgia, serif", times, serif;
 }
 
 /* Menu */
@@ -19,7 +19,7 @@ body {
 }
 
 #navigation li a {
-    color: bisque;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
@@ -27,7 +27,7 @@ body {
 }
 
 #navigation li a:hover {
-    background: #7E150B;
+    background: #4A0F10;
     color: #212121;
 }
 
@@ -80,7 +80,7 @@ section .contenu {
 }
 
 section .contenu article {
-    border: 1px solid black;
+    border: 1px solid #212121;
     margin: 15px;
     padding: 20px;
 }
@@ -89,16 +89,25 @@ section .contenu article h3 {
     text-align: center
 }
 
-#intro, #points-a-eviter, footer {
-    background-color: #7E150B;
-}
-#Curriculum-Vitae {
+#intro, footer {
     background-color: #212121;
+    color: white;
+    line-height: 1.8;
+    text-shadow: 3px 2px #4A0F10;
 }
 
+#Curriculum-Vitae, footer {
+    background-color: #4A0F10;
+    color: white;
+    line-height: 1.8;
+    text-shadow: 3px 2px #212121;
+}
 
-#valeurs-a-respecter, #conclusion {
-    background-color: #7E150B;
+#conclusion, footer {
+    background-color: #212121;
+    color: white;
+    line-height: 1.8;
+    text-shadow: 3px 2px #4A0F10;
 }
 
 footer {
@@ -110,6 +119,7 @@ footer {
     text-align: center;
     padding: 10px;
     color: white;
+    background-color: #4A0F10;
 }
 
 footer a {
