@@ -7,11 +7,18 @@ body {
 
 /* source: https://www.alsacreations.com/tuto/lire/574-Creer-des-menus-simples-en-CSS.html */
 
+
 #navigation {
     text-align: center;
     background: #212121;
     margin: 0;
     padding: 20px;
+
+}
+.logo{
+    width: 3%;
+    margin-left: 10%;
+    
 }
 
 #navigation li {
@@ -27,9 +34,11 @@ body {
 }
 
 #navigation li a:hover {
+
     background: #4A0F10;
     color: #212121;
 }
+
 
 /* Page d'accueil */
 
@@ -125,4 +134,8 @@ footer {
 footer a {
     text-decoration: none;
     color: white;
+}
+.logolink{
+    float: right;
+    width: 5%;
 }
